@@ -88,7 +88,7 @@ while len(missed) < 5:
         if notend == 'false':
 		break
 
-if len(missed) == 5:
+if len(missed) > 3:
 	print '\nYou are HANGMAN!!! True word is ' + hided + '\nBye bye!'
 else:
 	print '\nCongratulation ' + hided + ' is TRUE!!! You can ;)'
